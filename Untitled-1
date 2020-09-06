@@ -1,4 +1,23 @@
 
+<<<<<<< HEAD
     esta mal
 
+=======
+    M = [4 2 1; 3 9 1; 2 8 1];
+    [f, c] = size(M);
+    a= mod(f,2);
+    z = 1:1:5;
+    if a == 1
+        if f == c
+            
+            z(1) = M(1,1);
+            z(2) = M(1,f);
+            z(3) = M(round(f/2), round(f/2));
+            z(4) = M(f,1);
+            z(5) = M(f,f);
+        end
+
+    end
+    Esto esta bien
+>>>>>>> cambios
 
